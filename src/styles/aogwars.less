@@ -1,0 +1,77 @@
+/* ---------------------------- */
+/*             Less             */
+/* This is your Less entry file */
+/* ---------------------------- */
+.window_content {
+  background: #fff;
+}
+.ship_card {
+  #sheet {
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-gap: 0.05in;
+    #datacard {
+      grid-area: datacard;
+      display: grid;
+      grid-template:
+        'header header header'
+        'block1 block2 block3';
+      grid-template-rows: 0fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      border: 1px solid #000;
+      #header {
+        grid-area: header;
+        border-bottom: 1px solid #000;
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+        display: grid;
+        grid-template: 'field-large field';
+        grid-template-columns: 70% 30%;
+        max-width: fit-content;
+        .large_field {
+          font-size: xx-large;
+          input {
+            border: none;
+            color: #fff;
+          }
+        }
+        .field {
+          font-size: small;
+          display: grid;
+          grid-template-columns: 0fr 1fr 0fr;
+          input {
+            border: none;
+            color: #fff;
+          }
+        }
+      }
+      .fieldblock {
+        text-align: left;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        white-space: nowrap;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 0fr 1fr;
+        align-items: end;
+        padding-bottom: 0.15em;
+        background-color: #fff;
+        .large_label {
+          font-size: x-large;
+        }
+        .label {
+          font-size: medium;
+        }
+        .field {
+          input {
+            border: none;
+            color: #000;
+            background-color: #fff;
+            border-bottom: 1px solid #000;
+          }
+        }
+      }
+    }
+  }
+}

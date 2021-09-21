@@ -1,0 +1,45 @@
+{
+  "Actor": {
+    "types": ["ship", "fighter"],
+    "templates": {},
+    "ship": {
+      "specs": {
+        "class": "",
+        "in_service": "",
+        "type": "",
+        "model": "",
+        "point_value": 0,
+        "ramming_value": 0,
+        "jump_delay": 0
+      },
+      "maneuvering": {
+        "turn_cost": "",
+        "turn_delay": "",
+        "accel_cost": "",
+        "pivot_cost": "",
+        "roll_cost": "",
+        "speed": 0
+      },
+      "combat": {
+        "fwd_aft_defense": 0,
+        "fwd_aft_shields": 0,
+        "stb_port_defense": 0,
+        "stb_port_shields": 0,
+        "engine_efficiency": "",
+        "extra_power": 0,
+        "initiative_bonus": 0
+      },
+      "hit_locations": {
+        "forward": {},
+        "side": {},
+        "aft": {},
+        "primary": {}
+      },
+      "sensor_data": {}
+    }
+  },
+  "Item": {
+    "types": [],
+    "templates": {}
+  }
+}

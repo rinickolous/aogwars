@@ -1,0 +1,24 @@
+{
+  "aogwars": {
+    "sheet": {
+      "specs": "Specs",
+      "class": "Class:",
+      "in_service": "In Service:",
+      "point_value": "Point Value:",
+      "ramming_value": "Ramming Value:",
+      "jump_delay": "Jump Delay:",
+      "maneuvering": "Maneuvering",
+      "turn_cost": "Turn Cost:",
+      "turn_delay": "Turn Delay:",
+      "accel_cost": "Accel/Decel Cost:",
+      "pivot_cost": "Pivot Cost:",
+      "roll_cost": "Roll Cost:",
+      "combat_stats": "Combat Stats",
+      "fwd_aft_defense": "Fwd/Aft Defense:",
+      "stb_port_defense": "Stb/Port Defense:",
+      "engine_efficiency": "Engine Efficiency:",
+      "extra_power": "Extra Power:",
+      "initiative_bonus": "Initiative Bonus:"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+<form class="{{cssClass}} ship_card" autocomplete="off">
+    <div id="sheet">
+        <div id="datacard">
+            <div id="header">
+                <div class="large_field"><input name="name" type="text" value="{{actor.name}}" placeholder="{{localize "aogwars.sheet.name"}}"></div>
+                <div class="field"><label>(</label><input name="data.specs.model" type="text" value="{{data.data.specs.model}}" placeholder="{{localize "aogwars.sheet.model"}}"><label>)</label></div>
+            </div>
+            <div class="fieldblock">
+                <div class="large_label">{{localize "aogwars.sheet.specs"}}</div><div class="large_label"></div>
+                <div class="label">{{localize "aogwars.sheet.class"}}</div>
+                <div class="field"><input name="data.specs.class" type="text" value="{{data.data.specs.class}}"></div>
+                <div class="label">{{localize "aogwars.sheet.in_service"}}</div>
+                <div class="field"><input name="data.specs.in_service" type="text" value="{{data.data.specs.in_service}}"></div>
+                <div class="label">{{localize "aogwars.sheet.point_value"}}</div>
+                <div class="field"><input name="data.specs.point_value" type="text" value="{{data.data.specs.point_value}}" data-dtype="Number"></div>
+                <div class="label">{{localize "aogwars.sheet.ramming_value"}}</div>
+                <div class="field"><input name="data.specs.ramming_value" type="text" value="{{data.data.specs.ramming_value}}" data-dtype="Number"></div>
+                <div class="label">{{localize "aogwars.sheet.jump_delay"}}</div>
+                <div class="field"><input name="data.specs.jump_delay" type="text" value="{{data.data.specs.jump_delay}}" data-dtype="Number"></div>
+            </div>
+            <div class="fieldblock">
+                <div class="large_label">{{localize "aogwars.sheet.maneuvering"}}</div><div class="large_label"></div>
+                <div class="label">{{localize "aogwars.sheet.turn_cost"}}</div>
+                <div class="field"><input name="data.maneuvering.turn_cost" type="text" value="{{data.data.maneuvering.turn_cost}}"></div>
+                <div class="label">{{localize "aogwars.sheet.turn_delay"}}</div>
+                <div class="field"><input name="data.maneuvering.turn_delay" type="text" value="{{data.data.maneuvering.turn_delay}}"></div>
+                <div class="label">{{localize "aogwars.sheet.accel_cost"}}</div>
+                <div class="field"><input name="data.maneuvering.accel_cost" type="text" value="{{data.data.maneuvering.accel_cost}}"></div>
+                <div class="label">{{localize "aogwars.sheet.pivot_cost"}}</div>
+                <div class="field"><input name="data.maneuvering.pivot_cost" type="text" value="{{data.data.maneuvering.pivot_cost}}"></div>
+                <div class="label">{{localize "aogwars.sheet.roll_cost"}}</div>
+                <div class="field"><input name="data.maneuvering.roll_cost" type="text" value="{{data.data.maneuvering.roll_cost}}"></div>
+            </div>
+            <div class="fieldblock">
+                <div class="large_label">{{localize "aogwars.sheet.combat_stats"}}</div><div></div><div class="large_label"></div>
+                <div class="label">{{localize "aogwars.sheet.fwd_aft_defense"}}</div>
+                <div class="field"><input name="data.combat_stats.fwd_aft_defense" type="text" value="{{data.data.combat_stats.fwd_aft_defense}}">(<input name="data.combat_stats.fwd_aft_shields" type="text" value="{{data.data.combat_stats.fwd_aft_shields}}">)</div>
+                <div class="label">{{localize "aogwars.sheet.stb_port_defense"}}</div>
+                <div class="field"><input name="data.combat_stats.stb_port_defense" type="text" value="{{data.data.combat_stats.stb_port_defense}}">(<input name="data.combat_stats.stb_port_shields" type="text" value="{{data.data.combat_stats.stb_port_shields}}">)</div>
+                <div class="label">{{localize "aogwars.sheet.engine_efficiency"}}</div>
+                <div class="field"><input name="data.combat_stats.engine_efficiency" type="text" value="{{data.data.combat_stats.engine_efficiency}}"></div>
+                <div class="label">{{localize "aogwars.sheet.extra_power"}}</div>
+                <div class="field"><input name="data.combat_stats.extra_power" type="text" value="{{data.data.combat_stats.extra_power}}"></div>
+                <div class="label">{{localize "aogwars.sheet.initiative_bonus"}}</div>
+                <div class="field"><input name="data.combat_stats.initiative_bonus" type="text" value="{{data.data.combat_stats.initiative_bonus}}"></div>
+            </div>
+        </div>
+    </div>
+</form>

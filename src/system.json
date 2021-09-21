@@ -1,0 +1,41 @@
+{
+  "name": "aogwars",
+  "title": "Advent of Galactic Wars",
+  "description": "",
+  "version": "0.0.0",
+  "author": "neck",
+  "authors": [
+    {
+      "name": "neck",
+      "email": "rinickolous@gmail.com",
+      "discord": "neck#0001"
+    }
+  ],
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [],
+  "esmodules": ["module/aogwars.js"],
+  "styles": ["styles/aogwars.css"],
+  "packs": [],
+  "dependencies": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "socket": false,
+  "url": "",
+  "manifest": "",
+  "download": "https://host/path/to/0.0.0.zip",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "initiative": "",
+  "gridDistance": 1,
+  "gridUnits": "",
+  "primaryTokenAttribute": "",
+  "secondaryTokenAttribute": ""
+}
